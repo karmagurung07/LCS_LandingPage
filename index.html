@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, inital-scale=1">
+		<link rel="stylesheet" href="landingStyle.css">
+		<link rel="stylesheet" href="style.css">
+		<title>LCS Landing Page</title>
+		<style>
+		<!--inline critical path-->
+		html, body{
+		margin:0;
+		font-family: arial helvetica, sans-serif;
+		font-size:1.5em;
+		overflow:auto;
+		}
+		</style>
+	</head>
+	<body>
+		
+		<header>
+			<div id="topic">
+				<img src="Logo-mini.jpg" alt="LCS Logo" width="90px" height="70px">
+				LCSView
+			</div>
+		
+			<nav>
+				<ul>
+					<li><button>About Us</button></li>
+					<li><button>Contact US</button></li>
+				</ul>
+			</nav>
+		</header>
+
+	<main>
+	<div class="container" >
+	<div class="toggle-container">
+		LIGHT/DARK MODE <input type="checkbox" id="switch" name="theme" /><label for="switch">Toggle</label>
+	</div>
+	</div>
+	<div class="content">
+		<section class="message">
+			Connect with participants,<br>
+			instructors, and staff from <br>
+			the Team LCS<br>
+		</section>
+		
+		<div class="formInput">
+			<form>
+				<label for="email">Email address:</label><br>
+				<input type="text" id="email" name="email" placeholder="Email"><br><br>
+				<label for="password">Password:</label><br>
+				<input type="text" id="password" name="password" placeholder="Password"><br>
+				<input type="submit" id="login" value="login">
+			</form>
+			<hr>
+			<input type="button" id="join" value="Join">
+		</div>
+		
+		</div>
+	</main>
+
+	<footer>
+		<ul>
+			<li>LCSView &copy2020</li>
+			<li>About</li>
+			<li>User Agreement</li>
+			<li>Privacy Policy</li>
+			<li>Community Guidelines</li>
+			<li>Language</li>
+		</ul>
+	</footer>
+	
+	<script src="myScript.js"></script>
+	
+</body>
+</html>
